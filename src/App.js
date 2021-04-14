@@ -1,11 +1,10 @@
-import './App.css';
+import React from 'react'
+import ExButton from './ExButton'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-        Under Construction
-    </div>
+    <ExButton />
   );
 }
 
-export default App;
+export default App
