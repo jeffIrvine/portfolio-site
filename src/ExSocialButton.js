@@ -4,7 +4,7 @@ import linkedInLogo from './images/socials/linkedInLogo.svg';
 import email from './images/socials/email.svg';
 import './Gooey1.css';
 
-const ExButton = () => {
+const ExSocialButton = () => {
     return (
       <div className="Gooey1">
 
@@ -19,32 +19,29 @@ const ExButton = () => {
           <a 
             className="menu-item"
             href="https://github.com/jeffIrvine"> 
-            <i className="fa fa-bar-chart"></i>  
           </a>
 
-          <a href="#" className="menu-item"> 
-          <i className="fa fa-plus"></i> 
+          <a
+           className="menu-item" 
+          href="https://github.com/jeffIrvine">
           </a>
 
           <a 
             className="menu-item"
             href="mailto:jirvine1212@gmail.com">
             <img src={email} alt="LinkedIn Logo"/> 
-            <i className="email-anchor"></i> 
           </a>
 
           <a 
             className="menu-item"
             href="https://www.linkedin.com/in/irvinejeff/"> 
             <img src={linkedInLogo} alt="LinkedIn Logo"/> 
-            <i className="linkedin-anchor"></i> 
           </a>
 
           <a 
             className="menu-item"
             href="https://github.com/jeffIrvine">
             <img src={githubLogo} alt="Github Logo"/> 
-            <i className="github-anchor"></i> 
           </a>
 
         </nav>
@@ -52,4 +49,4 @@ const ExButton = () => {
     );
   }
 
-export default ExButton;
+export default ExSocialButton;

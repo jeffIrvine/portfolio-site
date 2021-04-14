@@ -1,9 +1,9 @@
 import React from 'react'
-import ExButton from './ExButton'
+import ExSocialButton from './ExSocialButton'
 
 const App = () => {
   return (
-    <ExButton />
+    <ExSocialButton />
   );
 }
 
