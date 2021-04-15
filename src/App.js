@@ -3,7 +3,12 @@ import ExSocialButton from './ExSocialButton'
 
 const App = () => {
   return (
-    <ExSocialButton />
+    <>
+      <ExSocialButton />
+      <div>
+        Under Construction
+      </div>
+    </>
   );
 }
 
