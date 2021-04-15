@@ -1,12 +1,12 @@
 import React from 'react';
-import githubLogo from './images/socials/githubLogo.svg';
-import linkedInLogo from './images/socials/linkedInLogo.svg';
-import email from './images/socials/email.svg';
-import './Gooey1.css';
+import githubLogo from '../../images/socials/githubLogo.svg';
+import linkedInLogo from '../../images/socials/linkedInLogo.svg';
+import email from '../../images/socials/email.svg';
+import './SocialsButton.css';
 
 const ExSocialButton = () => {
     return (
-      <div className="Gooey1">
+      <div className="exploding-button">
 
         <nav className="menu">
           <input type="checkbox" href="#" className="menu-open" name="menu-open" id="menu-open" />
