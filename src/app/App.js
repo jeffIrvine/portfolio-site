@@ -1,11 +1,16 @@
 import React from 'react'
+import NavBar from '../components/navbar/NavBar';
 import SocialsButton from '../components/socialsButton/SocialsButton'
+import Projects from '../components/projects/Projects'
+import './App.css'
 
 const App = () => {
   return (
     <>
       <SocialsButton />
-        <h1>Under Construction</h1>
+      <Projects />
+      <NavBar />
+        <h1 className="construction" >Under Construction</h1>
     </>
   );
 }

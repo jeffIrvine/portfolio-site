@@ -19,6 +19,8 @@ const ExSocialButton = () => {
 
           <a 
             className="menu-item"
+            target="_blank"
+            rel="noreferrer"
             href="https://github.com/jeffIrvine">
             <img 
             className="githubImage" 
@@ -29,6 +31,8 @@ const ExSocialButton = () => {
 
           <a 
             className="menu-item"
+            target="_blank"
+            rel="noreferrer"
             href="https://www.linkedin.com/in/irvinejeff/"> 
             <img 
             className="linkedInImage" 
@@ -39,11 +43,13 @@ const ExSocialButton = () => {
           
           <a 
             className="menu-item"
+            target="_blank"
+            rel="noreferrer"
             href="mailto:jirvine1212@gmail.com">
             <img 
             className="mailImage" 
             src={email} 
-            alt="LinkedIn Logo"
+            alt="Email link"
             /> 
           </a>
         </nav>
