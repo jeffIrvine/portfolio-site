@@ -8,7 +8,7 @@ const App = () => {
   return (
     <>
       <SocialsButton />
-      <Projects />
+      {/* <Projects /> */}
       <NavBar />
         <h1 className="construction" >Under Construction</h1>
     </>
