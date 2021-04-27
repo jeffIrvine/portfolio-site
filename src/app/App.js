@@ -18,15 +18,11 @@ const App = () => {
 
   return (
     <>
-    {/* <select value={renderComp} onChange={({ target }) => setComp(target.value)}>
-      <option value="homeVideo">HomeVideo</option>
-      <option value="testH1">testH1</option>
-    </select> */}
-        <h1 className="construction" >Under Construction</h1>
+      <h1 className="construction" >Under Construction</h1>
+      <Header />
       {navMatrix[renderComp]}
       <SocialsButton />
-      <Header />
-      <NavBar setComp = {setComp}/>
+      <NavBar setComp={setComp}/>
     </>
   );
 }
