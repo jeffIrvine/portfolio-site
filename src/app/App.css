@@ -1,0 +1,10 @@
+.construction {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+body {
+  background: #202020;
+  color: white;
+}
