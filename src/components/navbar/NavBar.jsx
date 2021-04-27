@@ -1,7 +1,12 @@
 import React from 'react'
 import './NavBar.css'
 
-const NavBar = () => {
+const NavBar = ({ setComp }) => {
+
+  const onClick = ({ target }) => {
+    setComp(target.id)
+  }
+
   return (
     <>
       <div className="name-title">
@@ -9,10 +14,10 @@ const NavBar = () => {
         <h1>Software Engineer</h1>
       </div>
       <div className="nav-container">
-        <button className="nav-links">Tech Stack</button>
-        <button className="nav-links">About Me</button>
-        <button className="nav-links">Projects</button>
-        <button className="nav-links">Thoughts</button>
+        <button id="techStack" className="nav-links" onClick={onClick} >Tech Stack</button>
+        <button id="aboutMe" className="nav-links" onClick={onClick} >About Me</button>
+        <button id="projects" className="nav-links" onClick={onClick} >Projects</button>
+        <button id="thoughts" className="nav-links" onClick={onClick} >Thoughts</button>
       </div>
     </>
   )
