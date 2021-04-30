@@ -6,7 +6,6 @@ const NavBar = ({ setComp }) => {
   const onClick = ({ target }) => {
     setComp(target.id)
   }
-
   return (
     <>
       <div className="name-title">
