@@ -1,6 +1,10 @@
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
 .project-card {
-  width: fit-content;
   align-items: center;
   justify-content: center;
   width: fit-content;
@@ -9,29 +13,23 @@
 }
 
 .project-card img{
-
+  filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.15));
+  max-width: 100%;
+  max-height: 200px;
 }
 
-.project-card a{
+
+.project-card > a{
   display: inline-block;
   color: #202020;
   border: 1px solid #202020;
   padding: 5px;
   text-decoration: none;
   text-align: center;
-  transition: all .66s;
+  transition: all .44s;
   margin: 10px;
 }
-.project-card a:hover{
+.project-card > a:hover{
   background-color: #202020;
   color: #FFFFFF;
-}
-
-.project-list {
-  width: fit-content;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  justify-items: center;
 }
