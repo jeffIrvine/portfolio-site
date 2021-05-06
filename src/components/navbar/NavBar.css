@@ -1,14 +1,14 @@
 
+.nav-container {
+  width: 400px;
+}
+
 .name-title{
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   line-height: 0px;
   margin: 0px;
-}
-
-.nav-container {
-  margin: 5px;
 }
 
 .nav-links {

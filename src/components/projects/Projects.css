@@ -1,5 +1,6 @@
 
 .project-card {
+  width: fit-content;
   align-items: center;
   justify-content: center;
   width: fit-content;
@@ -27,6 +28,7 @@
 }
 
 .project-list {
+  width: fit-content;
   display: flex;
   flex-direction: row;
   justify-content: center;
