@@ -4,6 +4,10 @@ section {
   flex-wrap: wrap;
 }
 
+ul {
+  list-style-type: none;
+}
+
 h2 {
   text-align: center;
 }
