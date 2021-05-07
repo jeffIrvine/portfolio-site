@@ -1,0 +1,12 @@
+.about-container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.about-image{
+  width: 200px;
+  height: 200px;
+}

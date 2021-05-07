@@ -6,9 +6,9 @@ import './Projects.css'
 
 const Projects = () => {
   return (
-    <section>
+    <section className="projects-list">
       <h1 className="projects-title">Projects</h1>
-      <ul className="projects-list">
+      <ul>
         <li className="project-card">
           <h2>Flourish</h2>
           <figure>
@@ -23,8 +23,8 @@ const Projects = () => {
             height="200" 
             width="200"
             /> 
-
             </a>
+
           </figure>
 
             <p>

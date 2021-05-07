@@ -20,9 +20,11 @@ const App = () => {
     <>
       <h1 className="construction" >Under Construction</h1>
       <Header />
-      {navMatrix[renderComp]}
       <SocialsButton />
-      <NavBar setComp={setComp}/>
+      <main>
+        <NavBar setComp={setComp}/>
+        {navMatrix[renderComp]}
+      </main>
     </>
   );
 }

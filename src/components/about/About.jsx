@@ -1,9 +1,10 @@
 import React from 'react'
+import './About.css'
 
 const About = () => {
   return (
-    <div>
-      <img src="https:www.placecage.com/200/200" alt="jeff Irvine" /> 
+    <div className="about-container">
+      <img className="about-image" src="https://www.placecage.com/200/200" alt="jeff Irvine" /> 
       <h1 className="about-title">Science &gt; Faith</h1>
       <div>
         Spicy jalapeno bacon ipsum dolor amet excepteur landjaeger cupidatat, exercitation nulla ex ullamco commodo ham shankle porchetta nostrud corned beef. Kevin sed andouille pig t-bone tri-tip duis. Picanha jowl kielbasa strip steak doner id jerky non ad in ex frankfurter. Nostrud biltong doner ea dolore, do leberkas meatball t-bone swine kielbasa enim sausage dolor bresaola. Qui turducken aliqua lorem drumstick beef ribs kevin voluptate.
