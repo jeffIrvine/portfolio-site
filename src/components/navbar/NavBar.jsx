@@ -17,7 +17,7 @@ const NavBar = ({ setComp }) => {
         <button id="techStack" className="nav-links" onClick={onClick} >Tech Stack</button>
         <button id="aboutMe" className="nav-links" onClick={onClick} >About Me</button>
         <button id="projects" className="nav-links" onClick={onClick} >Projects</button>
-        <button id="thoughts" className="nav-links" onClick={onClick} >Thoughts</button>
+        <button id="Resume" className="nav-links" onClick={onClick} >Resume</button>
       </div>
     </div>
     </>

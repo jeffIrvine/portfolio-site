@@ -4,6 +4,7 @@ import Projects from '../components/projects/Projects'
 import NavBar from '../components/navbar/NavBar';
 import Header from '../components/header/Header';
 import About from '../components/about/About';
+import TechStack from '../components/techStack/TechStack';
 import './App.css'
 
 const App = () => {
@@ -12,8 +13,8 @@ const App = () => {
   const navMatrix = {
     aboutMe: <About />,
     projects: <Projects />,
-    techStack: <h1>Mighty Tech stack</h1>,
-    thoughts: <h1>Mighty Thoughts</h1>
+    techStack: <h1>Tech stack</h1>,
+    Resume: <h1>Resume</h1>
   }
 
   return (
@@ -24,6 +25,7 @@ const App = () => {
       <main>
         <NavBar setComp={setComp}/>
         {navMatrix[renderComp]}
+        <TechStack />
       </main>
     </>
   );
