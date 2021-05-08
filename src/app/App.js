@@ -13,7 +13,7 @@ const App = () => {
   const navMatrix = {
     aboutMe: <About />,
     projects: <Projects />,
-    techStack: <h1>Tech stack</h1>,
+    techStack: <TechStack />,
     Resume: <h1>Resume</h1>
   }
 
@@ -25,7 +25,6 @@ const App = () => {
       <main>
         <NavBar setComp={setComp}/>
         {navMatrix[renderComp]}
-        <TechStack />
       </main>
     </>
   );
