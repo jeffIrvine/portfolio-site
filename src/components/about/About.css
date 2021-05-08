@@ -1,9 +1,7 @@
 .about-container {
   width: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
+  margin-inline-end: 10em;
+  display: inline-block;
 }
 
 .about-image{
