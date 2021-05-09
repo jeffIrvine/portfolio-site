@@ -4,6 +4,7 @@ const TechStack = () => {
   return (
     //Link to line in repo where technology is used. 
     <section>
+      <h1>Tech Stack</h1>
       <ul>
         <li>
           <figure>
