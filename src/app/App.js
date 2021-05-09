@@ -16,7 +16,7 @@ const App = () => {
     aboutMe: <About />,
     projects: <Projects />,
     techStack: <TechStack />,
-    Resume: <h1>Resume</h1>
+    Resume: <Resume pdf={jeffIrvineResume}/>
   }
 
   return (
@@ -24,7 +24,6 @@ const App = () => {
       <h1 className="construction" >Under Construction</h1>
       <Header />
       <SocialsButton />
-      < Resume pdf={jeffIrvineResume}/> 
       <main>
         <NavBar setComp={setComp}/>
         {navMatrix[renderComp]}
