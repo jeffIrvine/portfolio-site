@@ -8,10 +8,6 @@ const NavBar = ({ setComp }) => {
   return (
     <>
       <div className='nav-container'>
-        <div className='name-title'>
-          <h1>Jeff Irvine</h1>
-          <h1>Software Engineer</h1>
-        </div>
         <div className='nav-buttons'>
           <button id='techStack' className='nav-links' onClick={onClick}>
             Tech Stack
