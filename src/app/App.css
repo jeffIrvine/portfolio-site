@@ -4,17 +4,19 @@
   align-content: center;
 }
 
-main {
+.name-title {
   display: flex;
-  flex-direction: row;
+  justify-content: flex-start;
+  flex-direction: column;
+  line-height: 0px;
+  font-size: large;
 }
 
 body {
-  margin: 0;
+  margin: 20px;
   padding: 20px;
   font-family: sans-serif;
   background: #202020;
   color: white;
   display: flex;
-  flex-direction: column;
 }
