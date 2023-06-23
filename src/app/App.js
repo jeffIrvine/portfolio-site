@@ -8,6 +8,7 @@ import './App.css';
 
 const App = () => {
   const [renderComp, setComp] = useState(null);
+  const [currentView, setCurrentView] = useState(null);
 
   const navMatrix = {
     aboutMe: <About />,
@@ -22,7 +23,11 @@ const App = () => {
         <h1>Software Engineer</h1>
       </div>
       <SocialsButton />
-      <NavBar setComp={setComp} />
+      <NavBar
+        setComp={setComp}
+        currentView={currentView}
+        setCurrentView={setCurrentView}
+      />
       <main>{navMatrix[renderComp]}</main>
     </>
   );

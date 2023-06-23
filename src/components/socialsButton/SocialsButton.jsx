@@ -1,12 +1,32 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import githubLogo from '../../images/socials/githubLogo.svg';
 import linkedInLogo from '../../images/socials/linkedInLogo.svg';
 import email from '../../images/socials/email.svg';
 import './SocialsButton.css';
 
 const ExSocialButton = () => {
+  const menuOpenToggle = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        menuOpenToggle.current &&
+        !menuOpenToggle.current.contains(event.target)
+      ) {
+        const checkbox = document.getElementById('menu-open');
+        checkbox.checked = false;
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
+
   return (
-    <div className='exploding-button'>
+    <div className='exploding-button' ref={menuOpenToggle}>
       <nav className='menu'>
         <input
           type='checkbox'
