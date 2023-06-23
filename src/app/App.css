@@ -12,6 +12,15 @@
   font-size: large;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  width: 100%;
+}
+
 body {
   margin: 20px;
   padding: 20px;
@@ -19,4 +28,5 @@ body {
   background: #202020;
   color: white;
   display: flex;
+  flex-direction: column;
 }
