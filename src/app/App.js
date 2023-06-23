@@ -22,10 +22,8 @@ const App = () => {
         <h1>Software Engineer</h1>
       </div>
       <SocialsButton />
-      <main>
-        <NavBar setComp={setComp} />
-        {navMatrix[renderComp]}
-      </main>
+      <NavBar setComp={setComp} />
+      <main>{navMatrix[renderComp]}</main>
     </>
   );
 };

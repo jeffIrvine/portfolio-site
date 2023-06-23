@@ -25,3 +25,9 @@
 .nav-links:hover {
   font-weight: bold;
 }
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
