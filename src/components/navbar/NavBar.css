@@ -29,7 +29,6 @@
 .nav-links.active,
 .nav-links:hover {
   font-weight: bold;
-  text-shadow: 0 0 3px rgb(107, 193, 199);
 }
 
 .nav-container {
